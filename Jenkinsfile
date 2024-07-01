@@ -13,7 +13,7 @@ pipeline {
         }
         stage('CODE CHECKOUT') {
             steps {
-                git 'https://github.com/Mahesh8887/devops_real_time_project_1.git'
+                git 'https://github.com/Suresh923/devops_real_time_project_1.git'
             }
         }
         stage('MODIFIED IMAGE TAG') {
@@ -37,7 +37,7 @@ pipeline {
             steps {
                 sh 'mvn sonar:sonar -Dsonar.projectName=$JOB_NAME \
                     -Dsonar.projectKey=$JOB_NAME \
-                    -Dsonar.host.url=http://3.1.24.180:9000 \
+                    -Dsonar.host.url=http://15.206.81.191:9000 \
                     -Dsonar.token=$sonar_token'
             }
         } 
