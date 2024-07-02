@@ -35,9 +35,9 @@
     </style>
   </head>
   <body>
-    <h1> welcome to DevOps community and Hope you found this useful Follow me for projects and more content on DevOps. Thank you </h1>
+    <h1> welcome to DevOps community. Hope you found this useful Follow me for more projects and content on DevOps. Thank you </h1>
     <h2> DEVOPS_REAL_TIME_PROJECT </h2>
-
+    <h3> INNOWISE_PROJECT_SUCCESSFULLY_COMPLETED </h3>
     <br>
     <br>
     <h2> App Status  : Up & Running !!! </h2>
