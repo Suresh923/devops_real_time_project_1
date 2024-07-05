@@ -37,7 +37,7 @@ pipeline {
             steps {
                 sh 'mvn sonar:sonar -Dsonar.projectName=$JOB_NAME \
                     -Dsonar.projectKey=$JOB_NAME \
-                    -Dsonar.host.url=http://13.201.26.213:9000 \
+                    -Dsonar.host.url=http://15.168.13.134:9000 \
                     -Dsonar.token=$sonar_token'
             }
         } 
